@@ -15,7 +15,8 @@
 }
 
 .container {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .nav {
@@ -29,26 +30,41 @@
   gap: 30px;
   padding-left: 100px;
 }
+.nav li {
+  color: white;
+  transition: transform 0.3s, color 0.3s, font-weight 0.3s;
+}
+.nav li:hover {
+  transform: scale(1.3);
+}
+.nav li:active {
+  font-weight: bold;
+  color: #F01945;
+}
+
+.nav .active {
+  font-weight: bold;
+  color: #F01945;
+}
 
 .cards {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 5px;
 }
 .cards .card {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 30px;
-  margin: 20px;
+  padding: 20px;
+  margin: 10px;
   border-radius: 15px;
   background-color: #FFE3C9;
   box-shadow: 4px 4px 10px #F01945;
 }
 .cards .card-img {
-  height: 150px;
+  height: 140px;
   border-radius: 20px;
 }
 .cards .card-texto {
