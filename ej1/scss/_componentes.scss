@@ -1,0 +1,26 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+    
+
+    .card{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        margin: 20px;
+        border-radius: 15px;
+        background-color: $color-fifth;
+        box-shadow: 4px 4px 10px $color-secondary;    
+        &-img{
+            height: 150px;
+            border-radius: 20px;
+        }
+        &-texto{
+            margin-top: 15px;
+        }
+    }
+}
