@@ -1,0 +1,18 @@
+$color-black:black;
+$color-white:white;
+$color-primary:#670D0F;
+$color-secondary:#F01945;
+$color-third:#F36444;
+$color-fourth:#FFCE6F;
+$color-fifth:#FFE3C9;
+
+$border: 1px solid black;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
