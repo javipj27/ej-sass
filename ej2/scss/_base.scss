@@ -1,0 +1,26 @@
+$color: #3498db;
+
+@mixin estilo-caja($index, $total) {
+  $brillo: 10% * ($index - 1);
+  $oscuro: 5% * ($total - $index);
+  
+  background-color: lighten($color, $brillo);
+  border: 2px solid darken($color, $oscuro);
+
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    background-color: lighten($color, $brillo + 10%);
+  }
+}

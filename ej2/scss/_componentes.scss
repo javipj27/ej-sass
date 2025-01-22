@@ -1,0 +1,20 @@
+.box-1 {
+    @include estilo-caja(1, 5);
+  }
+  
+  .box-2 {
+    @include estilo-caja(2, 5);
+  }
+  
+  .box-3 {
+    @include estilo-caja(3, 5);
+  }
+  
+  .box-4 {
+    @include estilo-caja(4, 5);
+  }
+  
+  .box-5 {
+    @include estilo-caja(5, 5);
+  }
+  

@@ -1,3 +1,111 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: 0 auto;
+}
 
+.box-1 {
+  background-color: #3498db;
+  border: 2px solid rgb(25.4560669456, 96.1673640167, 143.5439330544);
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.box-1:hover {
+  transform: scale(1.1);
+  background-color: rgb(95.3179916318, 173.9790794979, 226.6820083682);
+}
+
+.box-2 {
+  background-color: rgb(95.3179916318, 173.9790794979, 226.6820083682);
+  border: 2px solid rgb(29.2970711297, 110.6778242678, 165.2029288703);
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.box-2:hover {
+  transform: scale(1.1);
+  background-color: rgb(138.6359832636, 195.9581589958, 234.3640167364);
+}
+
+.box-3 {
+  background-color: rgb(138.6359832636, 195.9581589958, 234.3640167364);
+  border: 2px solid rgb(33.1380753138, 125.1882845188, 186.8619246862);
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.box-3:hover {
+  transform: scale(1.1);
+  background-color: rgb(181.9539748954, 217.9372384937, 242.0460251046);
+}
+
+.box-4 {
+  background-color: rgb(181.9539748954, 217.9372384937, 242.0460251046);
+  border: 2px solid rgb(36.9790794979, 139.6987447699, 208.5209205021);
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.box-4:hover {
+  transform: scale(1.1);
+  background-color: rgb(225.2719665272, 239.9163179916, 249.7280334728);
+}
+
+.box-5 {
+  background-color: rgb(225.2719665272, 239.9163179916, 249.7280334728);
+  border: 2px solid #3498db;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.box-5:hover {
+  transform: scale(1.1);
+  background-color: white;
+}
 
 /*# sourceMappingURL=main.css.map */
